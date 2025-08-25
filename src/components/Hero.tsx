@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
 
               <img
                 src="Img\Screenshot 2024-09-09 120041.jpg"
-                alt="Shashank Sony - Professional Profile"
+                alt="Me"
                 className="relative z-10 w-full h-full object-cover rounded-full border-4 border-gray-700/50 shadow-2xl hover:scale-105 transition-all duration-500 hover:border-purple-500/50"
               />
 

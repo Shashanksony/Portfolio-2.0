@@ -51,7 +51,7 @@ const About: React.FC = () => {
 
               <img
                 src="Img\Screenshot 2024-09-09 120041.jpg"
-                alt="Shashank Sony - About"
+                alt="Me"
                 className="relative z-10 w-full h-full object-cover rounded-2xl shadow-2xl hover:scale-105 transition-all duration-500 border-2 border-gray-700/50 hover:border-purple-500/50"
               />
 

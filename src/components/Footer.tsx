@@ -2,6 +2,8 @@ import React from "react";
 import { Github, Linkedin, Mail, ArrowUp, Heart, Code } from "lucide-react";
 
 const Footer: React.FC = () => {
+  const year = new Date().getFullYear();
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -111,7 +113,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 text-gray-400 text-center md:text-left mb-4 md:mb-0">
-            <span>© 2024 Shashank Sony. Made with</span>
+            <span>© {{year}} Shashank Sony. Made with</span>
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
             <span>and lots of coffee</span>
           </div>
